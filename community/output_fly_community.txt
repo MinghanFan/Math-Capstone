@@ -1,0 +1,288 @@
+/Users/floyd/PycharmProjects/479capstone/.venv/bin/python /Users/floyd/PycharmProjects/479capstone/community_analysis_fly.py 
+Graph loaded.
+Nodes: 2028
+Directed weighted edges: 57187
+RWC columns:
+['Id', 'avg_out_hitting_time', 'rw_out_closeness', 'out_truncated_runs', 'out_stuck_runs', 'out_total_runs', 'out_truncation_rate', 'avg_in_hitting_time', 'rw_in_closeness', 'in_truncated_runs', 'in_stuck_runs', 'in_total_runs', 'in_truncation_rate']
+
+Gephi columns:
+['Id', 'Label', 'cell_class', 'nt_type', 'primary_type', 'side', 'super_class', 'indegree', 'outdegree', 'Degree', 'weighted indegree', 'weighted outdegree', 'Weighted Degree', 'closnesscentrality', 'betweenesscentrality', 'modularity_class']
+
+Classic stats columns:
+['node', 'name', 'in_closeness', 'out_closeness', 'betweenness']
+
+Random-walk betweenness columns:
+['node', 'name', 'rw_betweenness']
+
+Merged file saved to:
+/Users/floyd/PycharmProjects/479capstone/fly_result/fly_ALL.csv
+
+====================================
+Top 10 nodes by rw_out_closeness
+====================================
+                      Id    Label  ... rw_out_closeness  modularity_class
+798   720575940621537023   NO.266  ...         0.000110                 0
+686   720575940620020694    EB.51  ...         0.000106                 5
+796   720575940621512291   FB.658  ...         0.000081                 1
+541   720575940618153153    NO.65  ...         0.000079                 0
+237   720575940612152930   NO.143  ...         0.000079                 3
+1420  720575940629550039    NO.80  ...         0.000078                 4
+632   720575940619296365    EB.42  ...         0.000074                 3
+1825  720575940637729370   FB.119  ...         0.000072                 2
+380   720575940614966214   FB.285  ...         0.000072                 0
+1995  720575940649647225  FB.1165  ...         0.000072                 0
+
+[10 rows x 5 columns]
+
+Community distribution:
+modularity_class
+0    4
+3    2
+5    1
+1    1
+4    1
+2    1
+Name: count, dtype: int64
+
+Dominant community: 0
+Concentration ratio: 0.4
+
+====================================
+Community 0 structure
+====================================
+community: 0
+community_size: 444
+internal_directed_edges: 10604
+outgoing_cut_edges: 4441
+incoming_cut_edges: 6389
+total_out_volume: 15045
+total_in_volume: 16993
+out_escape_ratio: 0.2951811232967763
+in_escape_ratio: 0.37597834402400987
+directed_density: 0.05391169950989364
+undirected_density: 0.09012059463526732
+
+====================================
+Top 10 nodes by rw_in_closeness
+====================================
+                      Id      Label  ... rw_in_closeness  modularity_class
+1076  720575940625455247       FB.2  ...        0.018708                 0
+127   720575940609375580       FB.4  ...        0.018227                 0
+644   720575940619544779       FB.1  ...        0.016219                 0
+1452  720575940629922934  FB.LAL.19  ...        0.016108                 0
+1492  720575940630444625      FB.65  ...        0.014276                 3
+1362  720575940628793982       FB.3  ...        0.011376                 0
+1765  720575940635990640   FB.LAL.1  ...        0.009989                 0
+46    720575940605379506      FB.45  ...        0.008137                 3
+1749  720575940635467150  FB.LAL.12  ...        0.007724                 0
+627   720575940619237985      FB.63  ...        0.007591                 3
+
+[10 rows x 5 columns]
+
+Community distribution:
+modularity_class
+0    7
+3    3
+Name: count, dtype: int64
+
+Dominant community: 0
+Concentration ratio: 0.7
+
+====================================
+Community 0 structure
+====================================
+community: 0
+community_size: 444
+internal_directed_edges: 10604
+outgoing_cut_edges: 4441
+incoming_cut_edges: 6389
+total_out_volume: 15045
+total_in_volume: 16993
+out_escape_ratio: 0.2951811232967763
+in_escape_ratio: 0.37597834402400987
+directed_density: 0.05391169950989364
+undirected_density: 0.09012059463526732
+
+====================================
+Top 10 nodes by normal_out_closeness
+====================================
+                      Id      Label  ... normal_out_closeness  modularity_class
+1765  720575940635990640   FB.LAL.1  ...             5.006043                 0
+396   720575940615326779     FB.273  ...             4.991764                 0
+1750  720575940635530359     FB.214  ...             4.981697                 0
+1967  720575940644706083   FB.LAL.2  ...             4.962408                 0
+1773  720575940636229183     FB.241  ...             4.946588                 0
+1452  720575940629922934  FB.LAL.19  ...             4.931273                 0
+902   720575940622942868     FB.257  ...             4.918016                 0
+808   720575940621709388      FB.48  ...             4.911503                 0
+1090  720575940625637562     FB.263  ...             4.907416                 0
+1968  720575940644733975     FB.384  ...             4.897884                 3
+
+[10 rows x 5 columns]
+
+Community distribution:
+modularity_class
+0    9
+3    1
+Name: count, dtype: int64
+
+Dominant community: 0
+Concentration ratio: 0.9
+
+====================================
+Community 0 structure
+====================================
+community: 0
+community_size: 444
+internal_directed_edges: 10604
+outgoing_cut_edges: 4441
+incoming_cut_edges: 6389
+total_out_volume: 15045
+total_in_volume: 16993
+out_escape_ratio: 0.2951811232967763
+in_escape_ratio: 0.37597834402400987
+directed_density: 0.05391169950989364
+undirected_density: 0.09012059463526732
+
+====================================
+Top 10 nodes by normal_in_closeness
+====================================
+                      Id     Label  ... normal_in_closeness  modularity_class
+1640  720575940632825913     FB.77  ...            4.322852                 3
+1496  720575940630520314     FB.98  ...            4.302063                 3
+1795  720575940636923108     FB.95  ...            4.283449                 3
+1646  720575940632891106    FB.156  ...            4.265730                 3
+354   720575940614230499    FB.117  ...            4.263915                 3
+1286  720575940627899900    FB.158  ...            4.262530                 3
+320   720575940613490841    FB.131  ...            4.233317                 3
+1083  720575940625541434   PB.FB.4  ...            4.225678                 3
+617   720575940619141254    FB.129  ...            4.223517                 3
+285   720575940612892670  NO.FB.39  ...            4.221272                 3
+
+[10 rows x 5 columns]
+
+Community distribution:
+modularity_class
+3    10
+Name: count, dtype: int64
+
+Dominant community: 3
+Concentration ratio: 1.0
+
+====================================
+Community 3 structure
+====================================
+community: 3
+community_size: 473
+internal_directed_edges: 11023
+outgoing_cut_edges: 3466
+incoming_cut_edges: 2666
+total_out_volume: 14489
+total_in_volume: 13689
+out_escape_ratio: 0.2392159569328456
+in_escape_ratio: 0.19475491270363066
+directed_density: 0.049373813021822484
+undirected_density: 0.08236284803095997
+
+====================================
+Top 10 nodes by normal_betweenness
+====================================
+                      Id   Label  ... normal_betweenness  modularity_class
+1640  720575940632825913   FB.77  ...           0.136775                 3
+1795  720575940636923108   FB.95  ...           0.100743                 3
+1496  720575940630520314   FB.98  ...           0.090367                 3
+1646  720575940632891106  FB.156  ...           0.076446                 3
+1915  720575940640749939    EB.1  ...           0.075648                 4
+1286  720575940627899900  FB.158  ...           0.066527                 3
+1887  720575940639410291   FB.15  ...           0.061415                 3
+354   720575940614230499  FB.117  ...           0.059336                 3
+1764  720575940635969758  FB.101  ...           0.057048                 2
+127   720575940609375580    FB.4  ...           0.054364                 0
+
+[10 rows x 5 columns]
+
+Community distribution:
+modularity_class
+3    7
+4    1
+2    1
+0    1
+Name: count, dtype: int64
+
+Dominant community: 3
+Concentration ratio: 0.7
+
+====================================
+Community 3 structure
+====================================
+community: 3
+community_size: 473
+internal_directed_edges: 11023
+outgoing_cut_edges: 3466
+incoming_cut_edges: 2666
+total_out_volume: 14489
+total_in_volume: 13689
+out_escape_ratio: 0.2392159569328456
+in_escape_ratio: 0.19475491270363066
+directed_density: 0.049373813021822484
+undirected_density: 0.08236284803095997
+
+====================================
+Top 10 nodes by rw_betweenness
+====================================
+                      Id  Label classic_name  rw_betweenness  modularity_class
+1915  720575940640749939   EB.1         EB.1        0.033427                 4
+384   720575940615101747   EB.2         EB.2        0.030526                 4
+1091  720575940625649214   FB.5         FB.5        0.028209                 1
+40    720575940604868286  FB.70        FB.70        0.027308                 4
+1582  720575940631619384  FB.83        FB.83        0.025101                 4
+719   720575940620346795   FB.6         FB.6        0.024643                 1
+1129  720575940625962152  FB.46        FB.46        0.024548                 4
+1795  720575940636923108  FB.95        FB.95        0.024112                 3
+1882  720575940639278399   EB.3         EB.3        0.023792                 4
+512   720575940617387732  FB.14        FB.14        0.023489                 3
+
+Community distribution:
+modularity_class
+4    6
+1    2
+3    2
+Name: count, dtype: int64
+
+Dominant community: 4
+Concentration ratio: 0.6
+
+====================================
+Community 4 structure
+====================================
+community: 4
+community_size: 530
+internal_directed_edges: 6994
+outgoing_cut_edges: 2072
+incoming_cut_edges: 1186
+total_out_volume: 9066
+total_in_volume: 8180
+out_escape_ratio: 0.228546216633576
+in_escape_ratio: 0.1449877750611247
+directed_density: 0.024945607589970397
+undirected_density: 0.041359631914969504
+
+====================================
+Final comparison
+====================================
+                   type  dominant_community  ...  out_escape_ratio  in_escape_ratio
+0      rw_out_closeness                   0  ...          0.295181         0.375978
+1       rw_in_closeness                   0  ...          0.295181         0.375978
+2  normal_out_closeness                   0  ...          0.295181         0.375978
+3   normal_in_closeness                   3  ...          0.239216         0.194755
+4    normal_betweenness                   3  ...          0.239216         0.194755
+5        rw_betweenness                   4  ...          0.228546         0.144988
+
+[6 rows x 8 columns]
+
+Community summary saved to:
+/Users/floyd/PycharmProjects/479capstone/community/fly_community.csv
+
+Analysis finished.
+
+Process finished with exit code 0
