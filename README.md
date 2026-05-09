@@ -29,6 +29,7 @@ We also look at community structure and check whether random walks may be trappe
 - `community/`: community detection results
 - `community_figure_elegan/`: community figures for C. elegans
 - `community_figures_fly/`: community figures for fruit fly
+- `gephi/`: gephi files for C. elegans network and fruit fly network
 
 ## Python files
 
