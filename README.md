@@ -42,7 +42,6 @@ We also look at community structure and check whether random walks may be trappe
 - `rwbetw.py`: compute random-walk betweenness
 - `Compare_method.py`: compare different centrality methods
 - `drawing_compare_method.py`: draw comparison plots
-- `community.py`: run community detection
 - `community_analysis_ele.py`: community analysis for C. elegans
 - `community_analysis_fly.py`: community analysis for fruit fly
 - `draw_top_in_community.py`: draw top nodes in community figures
